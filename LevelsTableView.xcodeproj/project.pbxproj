@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C19135A629DD404200EC5BB6 /* Lavels+TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19135A429DD404200EC5BB6 /* Lavels+TableViewCell.swift */; };
+		C19135A729DD404200EC5BB6 /* Lavels+TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C19135A529DD404200EC5BB6 /* Lavels+TableViewCell.xib */; };
+		C19135AD29DD41E700EC5BB6 /* bmw.png in Resources */ = {isa = PBXBuildFile; fileRef = C19135A929DD41E600EC5BB6 /* bmw.png */; };
+		C19135AE29DD41E700EC5BB6 /* nissan.png in Resources */ = {isa = PBXBuildFile; fileRef = C19135AA29DD41E600EC5BB6 /* nissan.png */; };
+		C19135AF29DD41E700EC5BB6 /* ford.png in Resources */ = {isa = PBXBuildFile; fileRef = C19135AB29DD41E700EC5BB6 /* ford.png */; };
+		C19135B029DD41E700EC5BB6 /* mini.png in Resources */ = {isa = PBXBuildFile; fileRef = C19135AC29DD41E700EC5BB6 /* mini.png */; };
 		C1B6D55229DB5C6400EC7A52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B6D55129DB5C6400EC7A52 /* AppDelegate.swift */; };
 		C1B6D55429DB5C6400EC7A52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B6D55329DB5C6400EC7A52 /* SceneDelegate.swift */; };
-		C1B6D55629DB5C6400EC7A52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B6D55529DB5C6400EC7A52 /* ViewController.swift */; };
 		C1B6D55929DB5C6400EC7A52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1B6D55729DB5C6400EC7A52 /* Main.storyboard */; };
 		C1B6D55B29DB5C6700EC7A52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1B6D55A29DB5C6700EC7A52 /* Assets.xcassets */; };
 		C1B6D55E29DB5C6700EC7A52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1B6D55C29DB5C6700EC7A52 /* LaunchScreen.storyboard */; };
+		C1B6D56629DB5EC200EC7A52 /* Example+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B6D56529DB5EC200EC7A52 /* Example+ViewController.swift */; };
+		C1B6D56A29DB758C00EC7A52 /* CarsJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B6D56929DB758C00EC7A52 /* CarsJSON.swift */; };
+		C1B6D56C29DB75DE00EC7A52 /* CarsJSONResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B6D56B29DB75DE00EC7A52 /* CarsJSONResponse.swift */; };
+		C1B6D57029DB8BB000EC7A52 /* Lavels+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B6D56F29DB8BB000EC7A52 /* Lavels+ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C19135A429DD404200EC5BB6 /* Lavels+TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lavels+TableViewCell.swift"; sourceTree = "<group>"; };
+		C19135A529DD404200EC5BB6 /* Lavels+TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "Lavels+TableViewCell.xib"; sourceTree = "<group>"; };
+		C19135A929DD41E600EC5BB6 /* bmw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bmw.png; sourceTree = "<group>"; };
+		C19135AA29DD41E600EC5BB6 /* nissan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nissan.png; sourceTree = "<group>"; };
+		C19135AB29DD41E700EC5BB6 /* ford.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ford.png; sourceTree = "<group>"; };
+		C19135AC29DD41E700EC5BB6 /* mini.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mini.png; sourceTree = "<group>"; };
 		C1B6D54E29DB5C6400EC7A52 /* LevelsTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LevelsTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1B6D55129DB5C6400EC7A52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1B6D55329DB5C6400EC7A52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C1B6D55529DB5C6400EC7A52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C1B6D55829DB5C6400EC7A52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1B6D55A29DB5C6700EC7A52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1B6D55D29DB5C6700EC7A52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1B6D55F29DB5C6700EC7A52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1B6D56529DB5EC200EC7A52 /* Example+ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Example+ViewController.swift"; sourceTree = "<group>"; };
+		C1B6D56929DB758C00EC7A52 /* CarsJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsJSON.swift; sourceTree = "<group>"; };
+		C1B6D56B29DB75DE00EC7A52 /* CarsJSONResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsJSONResponse.swift; sourceTree = "<group>"; };
+		C1B6D56F29DB8BB000EC7A52 /* Lavels+ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lavels+ViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +55,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C19135A829DD404D00EC5BB6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C19135A429DD404200EC5BB6 /* Lavels+TableViewCell.swift */,
+				C19135A529DD404200EC5BB6 /* Lavels+TableViewCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		C19135B129DD442100EC5BB6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C19135A929DD41E600EC5BB6 /* bmw.png */,
+				C19135AB29DD41E700EC5BB6 /* ford.png */,
+				C19135AC29DD41E700EC5BB6 /* mini.png */,
+				C19135AA29DD41E600EC5BB6 /* nissan.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		C1B6D54529DB5C6400EC7A52 = {
 			isa = PBXGroup;
 			children = (
@@ -58,11 +96,16 @@
 			children = (
 				C1B6D55129DB5C6400EC7A52 /* AppDelegate.swift */,
 				C1B6D55329DB5C6400EC7A52 /* SceneDelegate.swift */,
-				C1B6D55529DB5C6400EC7A52 /* ViewController.swift */,
+				C1B6D56B29DB75DE00EC7A52 /* CarsJSONResponse.swift */,
+				C1B6D56929DB758C00EC7A52 /* CarsJSON.swift */,
+				C1B6D56529DB5EC200EC7A52 /* Example+ViewController.swift */,
 				C1B6D55729DB5C6400EC7A52 /* Main.storyboard */,
 				C1B6D55A29DB5C6700EC7A52 /* Assets.xcassets */,
 				C1B6D55C29DB5C6700EC7A52 /* LaunchScreen.storyboard */,
 				C1B6D55F29DB5C6700EC7A52 /* Info.plist */,
+				C1B6D56F29DB8BB000EC7A52 /* Lavels+ViewController.swift */,
+				C19135B129DD442100EC5BB6 /* Images */,
+				C19135A829DD404D00EC5BB6 /* Cells */,
 			);
 			path = LevelsTableView;
 			sourceTree = "<group>";
@@ -125,8 +168,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C19135B029DD41E700EC5BB6 /* mini.png in Resources */,
 				C1B6D55E29DB5C6700EC7A52 /* LaunchScreen.storyboard in Resources */,
+				C19135AF29DD41E700EC5BB6 /* ford.png in Resources */,
 				C1B6D55B29DB5C6700EC7A52 /* Assets.xcassets in Resources */,
+				C19135AD29DD41E700EC5BB6 /* bmw.png in Resources */,
+				C19135AE29DD41E700EC5BB6 /* nissan.png in Resources */,
+				C19135A729DD404200EC5BB6 /* Lavels+TableViewCell.xib in Resources */,
 				C1B6D55929DB5C6400EC7A52 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +186,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1B6D55629DB5C6400EC7A52 /* ViewController.swift in Sources */,
+				C1B6D56A29DB758C00EC7A52 /* CarsJSON.swift in Sources */,
+				C1B6D56C29DB75DE00EC7A52 /* CarsJSONResponse.swift in Sources */,
+				C19135A629DD404200EC5BB6 /* Lavels+TableViewCell.swift in Sources */,
+				C1B6D56629DB5EC200EC7A52 /* Example+ViewController.swift in Sources */,
 				C1B6D55229DB5C6400EC7A52 /* AppDelegate.swift in Sources */,
+				C1B6D57029DB8BB000EC7A52 /* Lavels+ViewController.swift in Sources */,
 				C1B6D55429DB5C6400EC7A52 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

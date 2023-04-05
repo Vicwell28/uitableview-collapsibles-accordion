@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="myCell" rowHeight="77" id="KGk-i7-Jjw" customClass="Lavels_TableViewCell" customModule="LevelsTableView" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="340" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="340" height="50"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bmw.png" translatesAutoresizingMaskIntoConstraints="NO" id="Udy-9Q-yCM">
+                        <rect key="frame" x="12.666666666666668" y="3.6666666666666679" width="42.666666666666657" height="42.666666666666657"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Udy-9Q-yCM" secondAttribute="height" multiplier="1:1" id="bHC-UG-gLX"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NMb-et-YyD">
+                        <rect key="frame" x="284.66666666666669" y="3.6666666666666679" width="42.666666666666686" height="42.666666666666657"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="NMb-et-YyD" secondAttribute="height" multiplier="1:1" id="M9U-1S-wzI"/>
+                        </constraints>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MMR-4z-iRd">
+                        <rect key="frame" x="65.333333333333329" y="0.0" width="209.33333333333337" height="50"/>
+                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="22"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Udy-9Q-yCM" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" multiplier="0.2" id="0pg-SC-fmr"/>
+                    <constraint firstItem="MMR-4z-iRd" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="48z-WG-Qdv"/>
+                    <constraint firstItem="Udy-9Q-yCM" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="9kL-Ak-X5G"/>
+                    <constraint firstItem="NMb-et-YyD" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="9rB-O4-QkA"/>
+                    <constraint firstItem="Udy-9Q-yCM" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.125" id="AJZ-xQ-XSh"/>
+                    <constraint firstAttribute="bottom" secondItem="MMR-4z-iRd" secondAttribute="bottom" id="GMN-aq-rHe"/>
+                    <constraint firstItem="NMb-et-YyD" firstAttribute="leading" secondItem="MMR-4z-iRd" secondAttribute="trailing" constant="10" id="YTx-KN-hSF"/>
+                    <constraint firstItem="NMb-et-YyD" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" multiplier="1.8" id="ccE-Pt-Pgh"/>
+                    <constraint firstItem="NMb-et-YyD" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.12549" id="ewQ-at-bYJ"/>
+                    <constraint firstItem="MMR-4z-iRd" firstAttribute="leading" secondItem="Udy-9Q-yCM" secondAttribute="trailing" constant="10" id="gvf-1s-O12"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btn" destination="NMb-et-YyD" id="5S1-lu-828"/>
+                <outlet property="imageView" destination="Udy-9Q-yCM" id="daN-gK-g9x"/>
+                <outlet property="imageViewLaves" destination="Udy-9Q-yCM" id="Wmq-lp-TGf"/>
+                <outlet property="lable" destination="MMR-4z-iRd" id="plb-oI-xFm"/>
+            </connections>
+            <point key="canvasLocation" x="96.18320610687023" y="-1.7605633802816902"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="bmw.png" width="900" height="900"/>
+    </resources>
+</document>
